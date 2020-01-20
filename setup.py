@@ -7,11 +7,6 @@ with open(path.join(this_directory, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
   
-# specify requirements of your package here 
-##'math'
-
-#] 
-  
 # some more details 
 CLASSIFIERS = [ 
     'Development Status :: 3 - Alpha', 
@@ -23,10 +18,10 @@ CLASSIFIERS = [
   
 # calling the setup function  
 setup(name='complex', 
-      version='0.1.4', 
+      version='0.1.6', 
       description='Compute complex numbers operations such as addition, substraction, multiplication , division and modulus.', 
       long_description=long_description, 
-      long_description_content_type='text/markdown',
+      long_description_content_type='text/x-rst',
       url='https://github.com/deepak7376/complex', 
       author='Deepak Yadav', 
       author_email='dky.united@gmail.com', 
