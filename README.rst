@@ -9,7 +9,7 @@ Compute complex numbers operations such as addition, substraction, multiplicatio
 Look how easy it is to use:
   code::
     
-    from complex.complex import Complex
+    from complex import Complex
     x = Complex(2,3)
     y = Complex(4,5)
     print(x+y, x-y, x*y, x/y, x.mod(), y.mod())
