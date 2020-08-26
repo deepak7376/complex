@@ -16,7 +16,7 @@ CLASSIFIERS = [
   
 # calling the setup function  
 setup(name='complex', 
-      version='0.1.7', 
+      version='0.1.8', 
       description='Compute complex numbers operations such as addition, substraction, multiplication , division and modulus.', 
       long_description=long_description, 
       long_description_content_type='text/x-rst',
