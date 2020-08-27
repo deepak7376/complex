@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
   
 # reading long description from file 
-with open('README.rst', encoding='utf-8') as f:
+with open('README.md', encoding='utf-8') as f:
     long_description = f.read()
 
   
@@ -16,10 +16,10 @@ CLASSIFIERS = [
   
 # calling the setup function  
 setup(name='complex', 
-      version='0.1.8', 
+      version='0.1.9', 
       description='Compute complex numbers operations such as addition, substraction, multiplication , division and modulus.', 
       long_description=long_description, 
-      long_description_content_type='text/x-rst',
+      long_description_content_type='text/markdown',
       url='https://github.com/deepak7376/complex', 
       author='Deepak Yadav', 
       author_email='dky.united@gmail.com', 
