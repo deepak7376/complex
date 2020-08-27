@@ -1,3 +1,7 @@
+[![Downloads](https://pepy.tech/badge/complex)](https://pepy.tech/project/complex)
+[![Downloads](https://pepy.tech/badge/complex/month)](https://pepy.tech/project/complex/month)
+[![Downloads](https://pepy.tech/badge/complex/week)](https://pepy.tech/project/complex/week)
+
 Complex
 ==========
 Compute complex numbers operations such as addition, substraction, multiplication , division and modulus.
