@@ -9,7 +9,7 @@ def test_complex():
 	assert div.__str__() == '0.26-0.11i'
 	assert mod_x.__str__() == '2.24+0.00i'
 	assert mod_y.__str__() == '7.81+0.00i'
-	assert x_angle.__str__() == '0.46364760900080615'
+	assert x_angle.__str__() == '0.4636476090008061'
 	assert y_angle.__str__() == '0.8760580505981934'
 	assert x_conjugate.__str__() == '2.00-1.00i'
 	assert y_conjugate.__str__() == '5.00-6.00i'
