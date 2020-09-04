@@ -39,7 +39,7 @@ class Complex(object):
 
     def angle(self):
         if self.real == 0 and self.imaginary == 0:
-            raise Exception (f'The given input: {str(self)} is the origin and has no angle')
+            raise Exception ('The given input is the origin and has no angle')
         if self.real > 0 and self.imaginary == 0:
             return 0
         if self.real == 0 and self.imaginary > 0:
