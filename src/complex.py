@@ -36,3 +36,36 @@ class Complex(object):
         else:
             result = "%.2f-%.2fi" % (self.real, abs(self.imaginary))
         return result
+
+    def angle(self):
+        if self.real == 0 and self.imaginary == 0:
+            raise Exception ('The given input is the origin and has no angle')
+        if self.real > 0 and self.imaginary == 0:
+            return 0
+        if self.real == 0 and self.imaginary > 0:
+            return math.pi/2
+        if self.real < 0 and self.imaginary == 0:
+            return math.pi
+        if self.real == 0 and self.imaginary < 0:
+            return 3*math.pi/2
+            
+        atan = math.atan(abs(self.imaginary)/abs(self.real))
+        
+        #quadrant 1
+        if 0 < self.real and self.imaginary > 0:
+            return atan
+        #quadrant 2
+        elif 0 > self.real and self.imaginary > 0:
+            return (math.pi/2) + atan
+        #quadrant 3
+        elif 0 > self.real and 0 > self.imaginary:
+            return math.pi + atan
+        #quardant 4
+        elif 0 < self.real and 0 > self.imaginary:
+            return -atan
+
+    def conjugate(self):
+        return Complex(self.real,-1*self.imaginary)
+    
+    def log(self):
+        return Complex(math.log(self.mod().real),self.angle())
