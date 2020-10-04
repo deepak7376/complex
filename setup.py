@@ -16,8 +16,8 @@ CLASSIFIERS = [
   
 # calling the setup function  
 setup(name='complex', 
-      version='0.1.9', 
-      description='Compute complex numbers operations such as addition, substraction, multiplication , division and modulus.', 
+      version='0.2.0', 
+      description='Compute complex numbers operations such as addition, substraction, multiplication , division, modulus, conjugate and angle.', 
       long_description=long_description, 
       long_description_content_type='text/markdown',
       url='https://github.com/deepak7376/complex', 

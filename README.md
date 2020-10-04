@@ -3,7 +3,7 @@
 [![Downloads](https://pepy.tech/badge/complex/week)](https://pepy.tech/project/complex/week)
 
 # Complex
-> Compute complex numbers operations such as addition, substraction, multiplication , division and modulus.
+> Compute complex numbers operations such as addition, substraction, multiplication , division, modulus, conjugate and angle.
 
 ## Installation
 
@@ -19,7 +19,7 @@ Use for complex number mathematics
 from complex import Complex
 x = Complex(2,3)
 y = Complex(4,5)
-print(x+y, x-y, x*y, x/y, x.mod(), y.mod())
+print(x+y, x-y, x*y, x/y, x.mod(), y.mod(), x.angle(), y.angle(), x.conjugate(), y.conjugate(), x.log(), y.log())
 ```
 
 ## Development setup
