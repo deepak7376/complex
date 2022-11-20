@@ -16,7 +16,7 @@ CLASSIFIERS = [
   
 # calling the setup function  
 setup(name='complex', 
-      version='0.2.0', 
+      version='0.2.1', 
       description='Compute complex numbers operations such as addition, substraction, multiplication , division, modulus, conjugate and angle.', 
       long_description=long_description, 
       long_description_content_type='text/markdown',
